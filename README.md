@@ -52,6 +52,7 @@ getList() {
 [컴포넌트 선언부]
 name: 'SomeComponent'
 [컴포넌트 사용]
+import SomeComponent from './SomeComponent.vue';
 <SomeComponent />
 [컴포넌트 파일명]
 SomeComponent.vue
