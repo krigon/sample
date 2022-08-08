@@ -39,7 +39,6 @@ async getList() {
 // X
 getList() {
 	axios.get('/list').then(resp => {
-		const data = resp;
 		this.list = resp.data;
 		...
 	})
